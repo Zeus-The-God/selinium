@@ -1,5 +1,4 @@
 package com.dezlearn.qa.special_elements;
-
 import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
