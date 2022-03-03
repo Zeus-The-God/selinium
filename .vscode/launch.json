@@ -1,0 +1,112 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch CSS1",
+            "request": "launch",
+            "mainClass": "com.dezlearn.qa.css.CSS1",
+            "projectName": "selenium-test"
+        },
+        {
+            "type": "java",
+            "name": "Launch Basic_Get_Methods",
+            "request": "launch",
+            "mainClass": "com.dezlearn.qa.element_details.Basic_Get_Methods",
+            "projectName": "selenium-test"
+        },
+        {
+            "type": "java",
+            "name": "Launch Chrome_Test",
+            "request": "launch",
+            "mainClass": "com.dezlearn.qa.selenium_test.Chrome_Test",
+            "projectName": "selenium-test"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindElement_LinkName_Id",
+            "request": "launch",
+            "mainClass": "com.dezlearn.qa.selenium_test.FindElement_LinkName_Id",
+            "projectName": "selenium-test"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindElements_LinkName_Id",
+            "request": "launch",
+            "mainClass": "com.dezlearn.qa.selenium_test.FindElements_LinkName_Id",
+            "projectName": "selenium-test"
+        },
+        {
+            "type": "java",
+            "name": "Launch Firefox_Test",
+            "request": "launch",
+            "mainClass": "com.dezlearn.qa.selenium_test.Firefox_Test",
+            "projectName": "selenium-test"
+        },
+        {
+            "type": "java",
+            "name": "Launch Get_Page_Basics",
+            "request": "launch",
+            "mainClass": "com.dezlearn.qa.selenium_test.Get_Page_Basics",
+            "projectName": "selenium-test"
+        },
+        {
+            "type": "java",
+            "name": "Launch Navigation_Test",
+            "request": "launch",
+            "mainClass": "com.dezlearn.qa.selenium_test.Navigation_Test",
+            "projectName": "selenium-test"
+        },
+        {
+            "type": "java",
+            "name": "Launch Xpath1",
+            "request": "launch",
+            "mainClass": "com.dezlearn.qa.selenium_test.Xpath1",
+            "projectName": "selenium-test"
+        },
+        {
+            "type": "java",
+            "name": "Launch MultiselectBox",
+            "request": "launch",
+            "mainClass": "com.dezlearn.qa.special_elements.MultiselectBox",
+            "projectName": "selenium-test"
+        },
+        {
+            "type": "java",
+            "name": "Launch Selectbox",
+            "request": "launch",
+            "mainClass": "com.dezlearn.qa.special_elements.Selectbox",
+            "projectName": "selenium-test"
+        },
+        {
+            "type": "java",
+            "name": "Launch Advanced_Collections",
+            "request": "launch",
+            "mainClass": "com.dezlearn.qa.webelements_collection.Advanced_Collections",
+            "projectName": "selenium-test"
+        },
+        {
+            "type": "java",
+            "name": "Launch Element_Reference",
+            "request": "launch",
+            "mainClass": "com.dezlearn.qa.webelements_collection.Element_Reference",
+            "projectName": "selenium-test"
+        },
+        {
+            "type": "java",
+            "name": "Launch WebElements_Collection",
+            "request": "launch",
+            "mainClass": "com.dezlearn.qa.webelements_collection.WebElements_Collection",
+            "projectName": "selenium-test"
+        }
+    ]
+}
