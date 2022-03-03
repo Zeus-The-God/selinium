@@ -1,4 +1,5 @@
 package com.dezlearn.qa.selenium_test;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 

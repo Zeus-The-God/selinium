@@ -1,4 +1,5 @@
 package com.dezlearn.qa.special_elements;
+
 import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -19,8 +20,8 @@ public class MultiselectBox {
 
 		List<WebElement> options = driver.findElements(By.cssSelector("#artdeco-hoverable-artdeco-gen-65 li"));
 		for (WebElement option : options) {
-			if (option.getText().trim().contains("Associate") || 
-					 option.getText().trim().contains("Director")) {
+			if (option.getText().trim().contains("Associate") ||
+					option.getText().trim().contains("Director")) {
 				option.click();
 			}
 		}
