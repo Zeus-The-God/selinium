@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "com.dezlearn.qa.special_elements.Test",
+            "projectName": "selenium-test"
+        },
+        {
+            "type": "java",
+            "name": "Launch Concat",
+            "request": "launch",
+            "mainClass": "com.dezlearn.qa.special_elements.Concat",
+            "projectName": "selenium-test"
+        },
+        {
+            "type": "java",
+            "name": "Launch Datepicker",
+            "request": "launch",
+            "mainClass": "com.dezlearn.qa.special_elements.Datepicker",
+            "projectName": "selenium-test"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
