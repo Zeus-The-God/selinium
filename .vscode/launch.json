@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch WebTable",
+            "request": "launch",
+            "mainClass": "com.dezlearn.qa.special_elements.WebTable",
+            "projectName": "selenium-test"
+        },
+        {
+            "type": "java",
             "name": "Launch Test",
             "request": "launch",
             "mainClass": "com.dezlearn.qa.special_elements.Test",
