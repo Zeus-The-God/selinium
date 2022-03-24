@@ -7,31 +7,31 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class WebTableObject {
-    public static void main(String [] args){
+    public static void main(String[] args) {
 
         System.setProperty("webdriver.chrome.driver", "D:\\Drivers\\chromedriver.exe");
-        WebDriver driver=new ChromeDriver();
+        WebDriver driver = new ChromeDriver();
         driver.get("https://www.dezlearn.com/webtable-example/");
 
-        List<WebElement> rows=driver.findElements(By.xpath("//table[@class='tg']/tbody/tr"));
+        List<WebElement> rows = driver.findElements(By.xpath("//table[@class='tg']/tbody/tr"));
         int c = 0;
 
-        for(WebElement row : rows){
+        for (WebElement row : rows) {
             c++;
-            if(c==1){
+            if (c == 1) {
                 continue;
             }
             String name = row.findElement(By.xpath("td[1]")).getText();
-            if(name.equals("John White")){
+            if (name.equals("John White")) {
                 row.findElement(By.xpath("td[4]/input")).click();
                 List<WebElement> options = row.findElements(By.xpath("td[5]/select/option"));
-                for(WebElement option :options){
-                    if(option.getText().contains("Sports")){
+                for (WebElement option : options) {
+                    if (option.getText().contains("Sports")) {
                         option.click();
                         break;
                     }
                 }
-                
+
                 row.findElement(By.xpath("td[6]/input")).sendKeys("Test Comment");
                 break;
 
@@ -40,5 +40,5 @@ public class WebTableObject {
 
         driver.findElement(By.cssSelector("#demo")).click();
     }
-    
+
 }

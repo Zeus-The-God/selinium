@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Switch_Browser_Tab",
+            "request": "launch",
+            "mainClass": "com.dezlearn.qa.switching_tabs.Switch_Browser_Tab",
+            "projectName": "selenium-test"
+        },
+        {
+            "type": "java",
             "name": "Launch WebTableObject",
             "request": "launch",
             "mainClass": "com.dezlearn.qa.special_elements.WebTableObject",
