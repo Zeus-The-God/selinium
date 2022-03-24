@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Multiple_Browser_Windows",
+            "request": "launch",
+            "mainClass": "com.dezlearn.qa.switching_tabs.Multiple_Browser_Windows",
+            "projectName": "selenium-test"
+        },
+        {
+            "type": "java",
             "name": "Launch Switch_Browser_Tab",
             "request": "launch",
             "mainClass": "com.dezlearn.qa.switching_tabs.Switch_Browser_Tab",

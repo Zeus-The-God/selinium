@@ -1,7 +1,6 @@
 package com.dezlearn.qa.switching_tabs;
 
 import java.util.Set;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
