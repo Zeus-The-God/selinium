@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Prompt_Box",
+            "request": "launch",
+            "mainClass": "com.dezlearn.qa.javascript_alerts.Prompt_Box",
+            "projectName": "selenium-test"
+        },
+        {
+            "type": "java",
+            "name": "Launch Confirmation_Box",
+            "request": "launch",
+            "mainClass": "com.dezlearn.qa.javascript_alerts.Confirmation_Box",
+            "projectName": "selenium-test"
+        },
+        {
+            "type": "java",
+            "name": "Launch Simple_Alerts",
+            "request": "launch",
+            "mainClass": "com.dezlearn.qa.javascript_alerts.Simple_Alerts",
+            "projectName": "selenium-test"
+        },
+        {
+            "type": "java",
             "name": "Launch Multiple_Browser_Windows",
             "request": "launch",
             "mainClass": "com.dezlearn.qa.switching_tabs.Multiple_Browser_Windows",
