@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Right_Click",
+            "request": "launch",
+            "mainClass": "com.dezlearn.qa.mouse_actions.Right_Click",
+            "projectName": "selenium-test"
+        },
+        {
+            "type": "java",
+            "name": "Launch Mouse_Hover",
+            "request": "launch",
+            "mainClass": "com.dezlearn.qa.mouse_actions.Mouse_Hover",
+            "projectName": "selenium-test"
+        },
+        {
+            "type": "java",
             "name": "Launch Prompt_Box",
             "request": "launch",
             "mainClass": "com.dezlearn.qa.javascript_alerts.Prompt_Box",
