@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Test_Synchronization",
+            "request": "launch",
+            "mainClass": "com.dezlearn.qa.test_synchronization.Test_Synchronization",
+            "projectName": "selenium-test"
+        },
+        {
+            "type": "java",
             "name": "Launch Right_Click",
             "request": "launch",
             "mainClass": "com.dezlearn.qa.mouse_actions.Right_Click",
