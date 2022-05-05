@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Explicit_Wait",
+            "request": "launch",
+            "mainClass": "com.dezlearn.qa.test_synchronization.Explicit_Wait",
+            "projectName": "selenium-test"
+        },
+        {
+            "type": "java",
             "name": "Launch Test_Synchronization",
             "request": "launch",
             "mainClass": "com.dezlearn.qa.test_synchronization.Test_Synchronization",
